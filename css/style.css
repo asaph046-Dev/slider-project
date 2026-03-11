@@ -31,11 +31,15 @@ nav{
     
 }
 
+nav a:nth-child(1){
+    color: #eb582b;
+}
+
 .navigations-links{
     margin: 12px;
     color: #eee;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 500;
 }
 
@@ -50,6 +54,7 @@ nav{
     background-size: cover;
     background-position: center;
     margin-top: -50px;
+    transition: 1s ease-in-out;
 }
 
 .text-container{
